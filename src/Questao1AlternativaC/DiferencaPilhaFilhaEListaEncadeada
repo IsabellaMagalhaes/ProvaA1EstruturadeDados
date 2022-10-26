@@ -1,2 +1,4 @@
 As diferenças entre a declaração das classes para utilização em uma Pilha, uma Fila e uma Lista Encadeada sao:
-Pilhas - O ultimo elemento a ser inserido [e
+Pilhas - O ultimo elemento a ser inserido eh o primeiro a ser retirado, sua insercao e exclusao ocorrem apenas no top, um ponteiro eh necessario para acessar a lista e ele sempre aponta para o topo, eh mais usada quando precisamos acessar o elemento mais recente adicionado.
+Listas - Para percorrer e ter acesso aos elementos da lista devemos guardar o seu encadeamento, as listas precisam de nó que conecta ao próximo nó na lista.
+Filas - O primeiro elemento a ser inserido eh o primeiro a ser retirado, insercao e exclusao ocorroem nos dois lados da lista sendo a insercao no final e a exclusao no inicio, dois pinteiros sao necessarios um apontando para o primeiro elemento e o outro para o ultimo, usamos quando precisamos acessar os elementos em ordem de chegada ou por prioridade.
