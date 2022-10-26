@@ -1,22 +1,18 @@
 package Questao1AlternativaC;
 
-import Produto;
-
-public class ItemPedidoPilha {
+class ItemPedidoPilha {
     private Double[] valor = new Double[10];
     private Integer[] quantidade = new Integer[10];
     private Produto[] produto = new Produto[10];
-    private Integer topo = null;
+    private int topo;
+    private int tam_max;
 
-    public void empilhar(Integer elemento) {
-
-        if (topo == null) {
-            topo = 0;
-        }  else {
-            topo = topo + 1;
-        }
-
-        elementos[topo] = elemento;
+    public ItemPedidoPilha(int n) {
+        valor = new Double[n];
+        quantidade = new Integer[n];
+        produto = new Produto[n];
+        topo = 0;
     }
+    
 }
 
